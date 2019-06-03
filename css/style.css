@@ -8,6 +8,11 @@ body {
   margin: auto;
 }
 
+.container {
+  margin: auto;
+  width: 100%;
+}
+
 .inputContainer {
   width: 100%;
   padding-top: 20px;
@@ -24,11 +29,6 @@ input {
   background-color: #D8D8D8;
   border-radius: 6px;
   height: 28px;
-}
-
-.container {
-  margin: auto;
-  width: 100%;
 }
 
 #navTitle {
