@@ -1,10 +1,11 @@
-*, *:before, *:after { /*KOSHER*/
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
-body { /*KOSHER*/
+body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
+  margin: auto;
 }
 
 .inputContainer {
@@ -25,12 +26,12 @@ input {
   height: 28px;
 }
 
-.container { /*KOSHER*/
-  /*margin: 0px auto;*/
+.container {
+  margin: auto;
   width: 100%;
 }
 
-#navTitle { /*KOSHER*/
+#navTitle {
   display:inline;
   position: relative;
   text-align: center;
@@ -38,25 +39,25 @@ input {
   padding-left: 40%;
 }
 
-.chevron { /*KOSHER*/
+.chevron {
   float: left;
   display: inline;
   padding-right: 5px;
 }
 
-.dashboard { /*KOSHER*/
+.dashboard {
   padding-bottom: px;
   display: inline;
 }
 
-.subtitle { /*KOSHER*/
+.subtitle {
   font-size: 14px;
   text-align: center;
   display: inline;
   padding-left: 5%;
 }
 
-.navBar { /*KOSHER*/
+.navBar {
   width: 375px;
   height: 88px;
   margin: auto;
@@ -72,47 +73,47 @@ input {
 }
 
 
-.busData { /*KOSHER?*/
+.busData {
   width: 375px;
   position: absolute;
   left: 35%;
   margin: auto;
 }
 
-.bus { /*KOSHER*/
+.bus {
   font-weight: bold;
   display: inline-block;
   float: left;
   padding-right: 5px;
 }
 
-.arrivingNow { /*KOSHER*/
+.arrivingNow {
   color: #FF3A3A;
   font-weight: bold;
   display: inline-block;
   float: right;
 }
 
-.arrivalTime { /*KOSHER*/
+.arrivalTime {
   font-weight: bold;
   float: right;
 }
 
-.direction { /*KOSHER*/
+.direction {
   font-size: 14px;
   font-style: italic;
   text-transform: capitalize;
   display: inline;
 }
 
-.schedule { /*KOSHER*/
+.schedule {
   font-size: 14px;
   display: inline;
   float: right;
   padding-bottom: 20px;
 }
 
-.contentBox { /*KOSHER*/
+.contentBox {
   height: 80px;
   width: 100%;
   padding-top: 20px;
@@ -121,15 +122,17 @@ input {
   border-color: #979797;
 }
 
-.busData { /*KOSHER*/
+.busData {
   width: 375px;
   position: absolute;
   left: 35%;
+  margin: auto;
 }
 
-@media screen and (min-width:800px) {
+/*@media screen and (min-width:800px) {
   .container {
     width: 100%;
+    margin: auto;
   }
   .navBar {
     width: 800px;
@@ -145,4 +148,4 @@ input {
   .inputContainer {
     display: inline-block;
   }
-}
+}*/
